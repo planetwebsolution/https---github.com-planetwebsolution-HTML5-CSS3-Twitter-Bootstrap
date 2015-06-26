@@ -1,0 +1,82 @@
+/* iCheck plugin Minimal skin, blue
+----------------------------------- */
+.icheckbox_minimal-blue,
+.iradio_minimal-blue {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 19px;
+    height: 20px;
+    background: url(blue.png) no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+.icheckbox_minimal-blue {
+    width: 19px;
+    height: 20px;
+}
+
+.icheckbox_minimal-blue {
+    background-position: 0 0;
+}
+    .icheckbox_minimal-blue.hover {
+        background-position: -25px 0;
+    }
+    .icheckbox_minimal-blue.checked {
+        background-position: -50px 0;
+    }
+    .icheckbox_minimal-blue.disabled {
+        background-position: -75px 0;
+        cursor: default;
+    }
+    .icheckbox_minimal-blue.checked.disabled {
+        background-position: -100px 0;
+    }
+
+.iradio_minimal-blue {
+    background-position: -175px 0;
+}
+    .iradio_minimal-blue.hover {
+        background-position: -194px 0;
+    }
+    .iradio_minimal-blue.checked {
+        background-position: -213px 0;
+    }
+    .iradio_minimal-blue.disabled {
+        background-position: -232px 0;
+        cursor: default;
+    }
+    .iradio_minimal-blue.checked.disabled {
+        background-position: -251px 0;
+    }
+
+/*checkboxs in form in frontend*/
+.form-checkbox .icheckbox_minimal-blue,
+.form-checkbox2 .icheckbox_minimal-blue,
+.form-radio .iradio_minimal-blue {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 21px;
+    height: 21px;
+    background: url(blue2.png) no-repeat;
+    border: none;
+    cursor: pointer;
+}
+.form-checkbox .icheckbox_minimal-blue, .form-checkbox2 .icheckbox_minimal-blue { width: 21px; height: 21px; }
+.form-checkbox .icheckbox_minimal-blue, .form-checkbox2 .icheckbox_minimal-blue { background-position: 0 0; }
+.form-checkbox .icheckbox_minimal-blue.hover, .form-checkbox2 .icheckbox_minimal-blue.hover { background-position: -25px 0; }
+.form-checkbox .icheckbox_minimal-blue.checked, .form-checkbox2 .icheckbox_minimal-blue.checked { background-position: -50px 0; }
+.form-checkbox .icheckbox_minimal-blue.disabled, .form-checkbox2 .icheckbox_minimal-blue.disabled { background-position: -75px 0; cursor: default; }
+.form-checkbox .icheckbox_minimal-blue.checked.disabled, .form-checkbox2 .icheckbox_minimal-blue.checked.disabled { background-position: -100px 0; }
+
+
+
+/*form radio*/
+.form-radio .iradio_minimal-blue { background-position: -125px 0; }
+.form-radio .iradio_minimal-blue.hover { background-position: -150px 0; }
+.form-radio .iradio_minimal-blue.checked { background-position: -175px 0; }
+.form-radio .iradio_minimal-blue.disabled { background-position: -200px 0; cursor: default; }
+.form-radio .iradio_minimal-blue.checked.disabled { background-position: -225px 0; }
+

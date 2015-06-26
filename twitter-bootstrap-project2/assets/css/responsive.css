@@ -1,0 +1,292 @@
+@charset "utf-8";
+
+@media only screen and (max-width:1350px) {
+/*thank-you*/	
+.thankyou-row{ margin:140px auto;}	
+}
+
+@media only screen and (max-width:1240px) {
+#site-header .slider ul li { overflow: hidden;  }
+#site-header .slider ul li img { min-width: 150%; margin-left: -25%; }
+.header-content .topnav li a { font-size: 14px; padding-right: 13px; margin-right: 3px; background-position: right 2px;  }
+.pricing-head { background-size: 100% auto; padding: 100px 0 0px; }	
+}
+
+@media only screen and (max-width:1024px) {
+.pad60 { padding-top: 40px; padding-bottom: 40px; }
+.pad80 { padding-top: 50px; padding-bottom: 50px; }
+.section-head { margin-bottom: 20px; }
+.section-head h2 { font-size: 35px; line-height: 38px; }
+.section-head h2.size55 { font-size: 50px; }
+.section-head h2 br { display: none; }
+.lr-pad-30 { margin-left: -15px; margin-right: -15px; }
+.lr-pad-30 > div,
+.lr-pad-30 > li { padding-left: 15px; padding-right: 15px; }
+.home-testimonials .inner { margin: 0; }	
+.banner-text br { display: none; }
+.header-content .row > div { position: static; }
+.header-content .topnav {  }
+.three-boxes .box .icon { width: 140px; height: 153px; top: -90px; }
+.request-demo-section { padding-bottom: 60px; } 
+.centralize-reviews .container { padding-top: 300px; margin-top: -80px; }  
+.customized-look { background-attachment: scroll; }
+.manage-reviews { padding: 30px 0 0; }
+.manage-reviews .section-head { padding-top: 0; }
+.manage-reviews .detail { padding-bottom: 30px; }
+.three-boxes { padding-top: 120px; }
+
+/*pricing page*/
+.pricing-head { background-size: 115% auto; }
+.plan-box ul li.sign-up { padding: 15px; }
+.choose-plan { padding: 30px;  }
+.choose-plan h2,
+.choose-plan h2.gray { font-size: 28px; }
+.step-detail .full-row li:nth-child(1) { width: 60%; }
+.step-detail .full-row li:nth-child(2) { width: 21%; }
+.step-detail .full-row li:nth-child(3) { width: 19%; }
+#step4 .step-detail-inner { padding: 20px 15px; }
+#step4 form .inline-select select { min-width: 125px; }
+
+/*thank-you*/
+.thankyou-row{ margin:120px auto; padding:90px 50px;}
+}
+
+@media only screen and (max-width:992px) {
+.pad40 { padding-top: 30px; padding-bottom: 30px; }
+.header-content .topbar { min-height: 105px; }
+.header-content .topnav { position: absolute; top: 63px; left: 22px; margin: 5px 0; }
+.header-content .topbar.sticky .topnav { margin: 0; }
+.header-content .topnav li a { font-size: 17px; padding-right: 17px; margin-right: 10px; background-position: right 5px; }
+.banner-text { padding: 40px 50px; }
+.banner-text h1 { font-size: 25px; margin: 0 0 10px; }
+.banner-text h1 strong { font-size: 30px; line-height: 34px; }
+.banner-text h3 { font-size: 18px; line-height: 24px; }
+.bx-pager { bottom: 20px; }
+.manage-reviews .row > div:nth-child(2) { float: none; }
+.manage-reviews .row > div:nth-child(2) .alignleft { text-align: center; }
+.manage-reviews .row > div:nth-child(2) .alignleft img { max-width: 420px; }
+.centralize-reviews .container { padding-top: 250px; }  
+.review-notifications .section-head { padding-top: 0px; }
+footer .boxes .social li { margin-bottom: 2px; }
+footer .blog { padding-right: 0; }
+
+/*pricing page*/
+.pricing-head { background-size: 180% auto; padding-top: 130px; }
+.plan-box.full ul { padding: 15px; }
+.plan-box.full ul li { font-size: 16px !important; padding: 0 10px !important; }
+.starter .plan-box ul li.sign-up { padding: 0 20px 20px; }
+.plan-box.full ul li.contact-button a { padding: 8px 20px; }
+.plan-box ul li.name { font-size: 14px; }
+.plan-box ul li.price { font-size: 45px; }
+.plan-box ul li.price .dollar { font-size: 25px; top: -20px; left: -3px; }  
+.plan-box ul li.sign-up { padding: 10px; }
+.plan-box ul li.sign-up a { font-size: 16px; padding: 7px; }
+.step-detail .plan-details .custom-select + span { padding-left: 45px; }
+.step-detail .full-row li:nth-child(1) { font-size: 18px; }
+.step-detail .full-row li:nth-child(3) input[type="submit"] { font-size: 18px; }
+#step4 form .inline-select select { min-width: 85px; }
+
+/*thank-you*/
+.thankyou-row{padding:60px 50px; max-width:500px;}
+.thank-title{ font-size:28px;}
+.thank-span2{ font-size:18px;}
+}
+
+
+@media only screen and (max-width:800px) {
+.banner-text.sticky { padding: 150px 50px; }
+}
+
+@media only screen and (max-width:767px) {
+.pad60 { padding-top: 30px; padding-bottom: 30px; }
+.pad80 { padding-top: 40px; padding-bottom: 40px; }
+.section-head { margin-bottom: 15px; }
+.section-head h2 { font-size: 30px; line-height: 32px; }
+.section-head h2.size55 { font-size: 40px; line-height: 45px; }
+	
+#site-header { background: #333; position: relative; }
+.header-content .topbar { background: none; position: static; min-height: inherit; }
+.header-content .topbar .row { padding: 0; padding-bottom: 15px; background: rgba(255,255,255,.6); }
+.homepage .header-content .topbar .row { padding: 0; background: none; }
+.header-content .logo { text-align: center; }	
+
+.header-content .row { position: absolute; top: 0; z-index: 99; width: 100%; }
+.flexmenu { display: none; }
+.menu_button { color: white; display: block; font-size: 0; margin: 4px 0 0; float: left; text-align: center; }
+.menu_button:after { background: none repeat scroll 0 0 #ff9000; border-radius: 3px; content: "\f0c9"; cursor: pointer; display: block; float: right; font: 23px/36px "FontAwesome"; height: 35px; width: 42px; }
+.header-content .topnav { position: absolute; top: 125px; left: 0; right: 0; margin: 0;  }
+.header-content .topnav li { width: 100%; }
+.header-content .topnav li a { display: block; color: #fff; background: #ff9000 !important; padding: 5px 15px !important; margin: 0; border-bottom: 1px solid #1a98ba; }
+.header-content .topnav li a:hover { background: #1a98ba !important; }
+.header-content .row > div:nth-child(3) { position: absolute !important; right: 0; top: 57px; }
+
+#site-header .slider ul li img { min-width: 170%; margin-left: -40%; }
+.banner-text { padding: 140px 0 40px; }
+.centralize-reviews .container { margin: 0; padding-top: 200px; }
+.review-notifications .alignleft { margin-bottom: 20px; }
+.manage-reviews .row > div:nth-child(1) { float: none; }
+.three-boxes { padding-top: 50px; }
+.three-boxes .box { padding-top: 30px; margin-bottom: 15px; }
+.three-boxes .row > div:last-child .box { margin-bottom: 0px; }
+.three-boxes .box .icon { position: static; margin-bottom: 10px;}
+.home-testimonials .row > div { margin: 0 0 15px; border: none !important; }
+.home-testimonials .sign-up { margin-top: 20px; }
+footer .footer-img { left: 0; right: 0; margin: auto; }
+footer .footer-img img { display: block; margin: 4px auto 0; }
+footer .boxes { padding-top: 100px; }
+footer .boxes .row > div { background: none; border-bottom: 1px solid #2f3337; padding-bottom: 20px; margin-bottom: 20px; }
+footer .boxes .footer-logo { margin: 20px 0 10px; }
+footer .boxes .row > div:last-child { border: none; padding-bottom: 0px; margin-bottom: 0px;  }
+footer .copyright { padding: 15px 0; }
+footer .copyright .row > div { text-align: center; margin-bottom: 5px; }
+footer .copyright .row > div:last-child { margin-bottom: 0px; }
+
+/*pricing page*/
+.pricing-head { background-size: 600% auto; }
+.plan-box.full ul li { font-size: 14px !important; }
+.plan-box.full ul li.contact-button a { font-size: 15px; padding: 8px 10px; }
+.step-detail .plan-details { margin: 30px 30px 50px }
+.step-detail .plan-details label { margin-bottom: 5px; }
+.step-detail .full-row li:nth-child(1) { width: 50%; }
+.step-detail .full-row li:nth-child(3) { width: 29%; }
+.review-table { padding: 30px; }
+.pay-option { position: static; } 
+.nav-tabs > li:first-child { padding-left: 0; }
+.step .step-head .title { font-size: 16px; line-height: 20px; }
+#step4 form .row { margin-bottom: 15px; }
+#step4 .pay-with-cc .row > div:nth-child(1) { text-align: left; }
+#step4 form label { margin-bottom: 6px; }
+#step4 form input[type="text"], #step4 form textarea { margin-bottom: 6px; }
+.custom-select2 select { margin-bottom: 6px; }
+#step4 label.light { display: block; margin: 0 0 6px; max-width: 100%; }
+#step4 h2 { margin: 30px 0; }
+.pay-option { position: static; margin-bottom: 10px; }
+
+/*thank-you*/
+.thankyou-row{ margin:95px auto 50px; max-width:80%; padding:20px;}
+.thank-title{ font-size:20px;}
+.thank-span2{ font-size:14px; line-height:18px; display:inline-block;}
+.black-shadow { background-size: 100% auto; height: 92px;}
+}
+
+@media only screen and (max-width:568px) {
+#site-header .slider ul li img { min-width: 200%; margin-left: -40%; }	
+.centralize-reviews .container { padding-top: 180px; }
+.customized-look { background-size: 160% auto; background-position: 70% top; }
+.customized-look ul li { color: #000 !important; }
+.home-testimonials .owl-carousel .owl-stage-outer { margin-left: 0px; }
+.home-testimonials .owl-carousel .owl-item { margin-left: 0; }
+.home-testimonials ul li { padding: 0; border: none; }
+}
+
+@media only screen and (max-width:375px) {
+#site-header .slider ul li img { min-width: 130%; margin-left: -25%; }		
+.header-content .logo { margin-bottom: 40px; }
+.header-content .row > div:nth-child(3) { top: 72px; }
+.header-content { position: static; }	
+.header-content .topnav { top: 135px; }
+.banner-text { padding-top: 30px; }
+.banner-text h1,	
+.banner-text h1 strong { font-size: 22px; line-height: 25px; }	
+.banner-text h2 { font-size: 21px; line-height: 24px; } 
+.banner-text h3 { font-size: 17px; line-height: 21px; } 
+.centralize-reviews .container { padding-top: 120px; }
+.section-head h2 { font-size: 26px !important; line-height: 30px; }
+.request-demo-section .demo-link { padding: 10px 15px; }
+.manage-reviews .row > div:nth-child(2) .alignleft img { max-width: 100%; }
+
+/*pricing page*/
+.pricing-head { padding-top: 160px; }
+.pricing-head h1 { margin-bottom: 0; }
+.breadcrumb { margin: 0; text-align: left; padding: 10px 0; }
+.plan-box.full ul li.contact-button a { padding: 5px 10px; }
+.step .step-head .edit-link { right: 15px; top: 15px; }
+.step .step-head .title { padding: 10px 0; }
+.step .step-head .title .num { float: left; padding: 0 15px 50px 20px; }
+.plan-box.full ul li {  width: 100%; text-align: center; padding: 0 0 5px !important; }
+.step .step-head { padding-bottom: 6px; }
+.step .step-head ul { overflow: hidden; }
+.step .step-head ul li { width: 100%; display: block; margin: 0 !important; }
+.step .step-head .edit-link { width: auto; top: 5px; right: 10px; }
+.step-detail .plan-details { margin: 20px 15px; }
+.step-detail .plan-details .custom-select + span { width: 100%; display: block; padding: 6px 0 0; }
+.step-detail .full-row { margin: 10px; }
+.step-detail .full-row li { width: 100% !important; text-align: center; padding: 10px; }
+.review-table { padding: 20px 15px; }
+#step4 .step-detail-inner { padding: 20px 10px; }
+.nav-tabs > li { margin-left: 0; margin-right: 2px; }
+.nav-tabs > li:last-child { margin-right: 0px; }
+.nav-tabs > li > a { padding: 10px 5px; }
+.tab-content { padding: 20px 0; }
+
+/*thank-you*/
+.thankyou-outer{ background-size:188% auto; background-position:-63px bottom;}
+.thankyou-row{ max-width:90%;}
+.thank-title{ margin-bottom:10px;}
+}
+
+@media only screen and (max-width:320px) {
+.customized-look { background-size: 190% auto; }
+}
+
+@media only screen and (min-width:1300px) {
+.manage-reviews .row > div:nth-child(1) { width: 50%; margin-left: -60px; }	
+.manage-reviews .row > div:nth-child(2) { width: 55%; margin-right: -50px; }
+.lr-pad-30 { margin-left: -30px; margin-right: -30px; }
+.lr-pad-30 > div,
+.lr-pad-30 > li { padding-left: 30px; padding-right: 30px; }
+.row > .starter { padding-left: 65px; } 
+}
+
+
+/* agency-new-page */
+@media only screen and (max-width:1180px){
+.reg-heading h3{font-size: 22px}
+.left-aside .review-text p{padding-left: 18px;font-size: 14px;}
+.form-left{margin-left: 0;}
+.form-right{margin-left: -8px;}
+.form-left li{padding-left: 10px;padding-right: 0px;}
+
+}
+
+@media only screen and (max-width:980px){
+.left-aside{margin-bottom: 25px;}
+.form-left{margin-left: 80px;}
+.left-aside .review-text p{font-size: 16px;}
+
+}
+
+@media only screen and (max-width:768px){
+
+.form-control{width:100%;}
+.form-left{margin-left: 0;}
+.form-right{margin-left: 0;}
+.form-left li{padding-left: 25px;}
+}
+
+
+@media only screen and (max-width:640px){
+
+.form-control{width:100%;}
+.form-left li{padding-left: 40px;}
+.left-aside .review-text p{padding-left: 0;font-size: 15px;}
+}
+
+@media only screen and (max-width:540px){
+	.right-aside .contact .contact-heading h3{font-size: 24px;}
+	.form-left li{float: none;padding-left:16px;padding-right:16px;}
+	.reg-heading h3{font-size: 21px;}
+	.left-aside .review-text p{padding-left: 0;font-size: 15px;}
+	}
+
+@media only screen and (max-width:480px){
+	.right-aside .contact .contact-heading h3{font-size: 17px;}
+	.password{ padding: 11px 0;}
+	.left-aside .review-text p{padding-left: 0;font-size: 15px;}
+	.left-aside .review-text p{font-size: 14px;}
+}
+@media only screen and (max-width:320px){
+
+	.reg-heading h3{font-size: 18px;}
+	.left-aside .review-text p{font-size: 14px;}
+}

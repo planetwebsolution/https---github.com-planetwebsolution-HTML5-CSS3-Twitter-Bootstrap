@@ -1,0 +1,418 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Football Team</title>
+<meta name="viewport" content="width=device-width, initial-scale=.6, maximum-scale=.8">
+<script src="assets/js/lib/jquery-1.8.3.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+
+<!-- Fonts API -->
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic,900' rel='stylesheet' type='text/css'>
+
+<!-- Font Awesome API -->
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+<!-- bootstrap css -->
+<link href="assets/plugins/datepicker/daterangepicker-bs2.css" type="text/css" rel="stylesheet">
+<link href="assets/plugins/datepicker/daterangepicker-bs3.css" type="text/css" rel="stylesheet">
+<link href="assets/bootstrap/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+<link href="assets/bootstrap/css/bootstrap-theme.min.css" type="text/css" rel="stylesheet">
+<link href="assets/css/minimal/blue.css" rel="stylesheet" type="text/css" media="all">
+<link href="assets/plugins/mCustomScrollbar/jquery.mCustomScrollbar.css" rel="stylesheet">
+<link href="assets/css/Selectyze.jquery.css" rel="stylesheet" type="text/css" media="all">
+<link href="assets/css/fineuploader.css" rel="stylesheet" type="text/css" media="all">
+<link href="assets/plugins/bootstrap-datetimepicker/css/bootstrap-datetimepicker.css" type="text/css" rel="stylesheet">
+<!-- layout css -->
+<link href="assets/css/reset.css" type="text/css" rel="stylesheet">
+<link href="assets/css/style.css" type="text/css" rel="stylesheet">
+
+<!--[if lt IE 9]>
+<script src="../assets/js/html5shiv.js"></script>
+<![endif]-->
+</head>
+
+<body class="inner-bg">
+<!-- header -->
+<header class="header">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-4">
+        <div class="logo"><a href="dashboard.html"><img src="assets/img/images (1).jpg" alt=" "/><span>Football Team</span></a> </div>
+      </div>
+      <div class="col-xs-8">
+        <div class="top-right no-pad clearfix">
+          <ul>
+            <li>
+              <div class="user-dropdown clearfix">
+                <div class="user-img"> <img src="assets/img/download (6).jpg" width="38" height="38" alt=" "/></div>
+                <div class="user-name">
+                  <div class="dropdown"> <a data-toggle="dropdown" href="javascript:void(0)">Wayne Rooney <span class="caret"></span></a>
+                    <ul class="dropdown-menu userDropdown" role="menu">
+                      <li><a href="contestant-html/profile.html">Profile</a></li>
+                      <li><a href="sign-in-html/sign_in.html">Sign Out</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- /header --> 
+
+<!-- container -->
+<section class="container padtb">
+  <div class="white-base">
+    <div class="profile-container clearfix">
+      <div class="profile-info-left clearfix">
+        <div class="info-col1">
+          <div class="user-image"><img src="assets/img/langrenn.jpg" alt="" /></div>
+          <div class="social-icons">
+            <ul>
+              <li>
+                <div class="icon-circle"><a href="#"><i class="fa fa-facebook"></i></a></div>
+              </li>
+              <li>
+                <div class="icon-circle"><a href="#"><i class="fa fa-twitter"></i></a></div>
+              </li>
+              <li>
+                <div class="icon-circle"><a href="#"><i class="fa fa-linkedin"></i></a></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="info-col2">
+          <div class="user-name">Wayne Rooney</div>
+          <div class="user-designation">Football Player<span>Contestant</span></div>
+          <ul>
+            <li><a href="#"><span class="icon-small"><i class="fa fa-envelope"></i></span> wayne.rooney@bfg.com</a></li>
+            <li><a href="#"><span class="icon-small"><i class="fa fa-map-marker"></i></span> Arizona, PA, usa</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="tabs-wrapper">
+        <div role="tabpanel"> 
+          
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#achievements" aria-controls="home" role="tab" data-toggle="tab">Achievements</a></li>
+            <li role="presentation"><a href="#board-posts" aria-controls="profile" role="tab" data-toggle="tab">Board Posts</a></li>
+            <li role="presentation"><a href="#rivals" aria-controls="messages" role="tab" data-toggle="tab">Rivals</a></li>
+          </ul>
+          
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="achievements">
+              <div class="achivements-logo1 clearfix">
+                <div class="achivementLogo-scrollbar">
+                  <ul>
+                    <li><span class="achievement_tip2" title="<strong>24/7 Badge</strong><br> You logged a contest  activity after 10 pm."><img src="assets/img/Michigan Intercollegiate.jpg" alt=" "></span></li>
+                    <li><span class="achievement_tip2" title="<strong>24/7 Badge</strong><br> You logged a contest  activity after 10 pm."><img src="assets/img/download.png" alt=" "></span></li>
+                    <li><span class="achievement_tip2" title="<strong>24/7 Badge</strong><br> You logged a contest  activity after 10 pm."><img src="assets/img/associations_learnandserve.png" alt=" "></span></li>
+                    <li><span class="achievement_tip2" title="<strong>24/7 Badge</strong><br> You logged a contest  activity after 10 pm."><img src="assets/img/wpe08803e8_06.png" alt=" "></span></li>
+                    <li><span class="achievement_tip2" title="<strong>24/7 Badge</strong><br> You logged a contest  activity after 10 pm."><img src="assets/img/images.jpg" alt=" "></span></li>
+                    <li><span class="achievement_tip2" title="<strong>24/7 Badge</strong><br> You logged a contest  activity after 10 pm."><img src="assets/img/Michigan Intercollegiate.jpg" alt=" "></span></li>
+                    <li><span class="achievement_tip2" title="<strong>24/7 Badge</strong><br> You logged a contest  activity after 10 pm."><img src="assets/img/download.png" alt=" "></span></li>
+                    <li><span class="achievement_tip2" title="<strong>24/7 Badge</strong><br> You logged a contest  activity after 10 pm."><img src="assets/img/wpe08803e8_06.png" alt=" "></span></li>
+                    <li><span class="achievement_tip2" title="<strong>24/7 Badge</strong><br> You logged a contest  activity after 10 pm."><img src="assets/img/Michigan Intercollegiate.jpg" alt=" "></span></li>
+                    <li><span class="achievement_tip2" title="<strong>24/7 Badge</strong><br> You logged a contest  activity after 10 pm."><img src="assets/img/achievement-logo03.jpg" alt=" "></span></li>
+                    <li><span class="achievement_tip2" title="<strong>24/7 Badge</strong><br> You logged a contest  activity after 10 pm."><img src="assets/img/download.png" alt=" "></span></li>
+                    <li><span class="achievement_tip2" title="<strong>24/7 Badge</strong><br> You logged a contest  activity after 10 pm."><img src="assets/img/achievement-logo05.jpg" alt=" "></span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="board-posts">
+              <div class="boards-scrollbar">
+                <div class="board-posts">
+                  <table>
+                    <tr>
+                      <th scope="col">Subject</th>
+                      <th scope="col">Date Posted</th>
+                      <th scope="col">Views</th>
+                      <th scope="col">Replies</th>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Gareth Bale </a></td>
+                      <td>12/23/13</td>
+                      <td>12</td>
+                      <td>4</td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">James Rodríguez.</a></td>
+                      <td>12/08/13</td>
+                      <td>15</td>
+                      <td>8</td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Isco Alarcón: </a></td>
+                      <td>11/09/13</td>
+                      <td>100</td>
+                      <td>8</td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Sergio Ramos</a></td>
+                      <td>11/04/13</td>
+                      <td>110</td>
+                      <td>84</td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Daniel Carvajal</a></td>
+                      <td>11/01/13</td>
+                      <td>300</td>
+                      <td>18</td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Raphaël Varane</a></td>
+                      <td>12/23/13</td>
+                      <td>84</td>
+                      <td>3</td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Marcelo Vieira.</a></td>
+                      <td>12/05/13</td>
+                      <td>89</td>
+                      <td>8</td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Daniel Carvajal</a></td>
+                      <td>11/09/13</td>
+                      <td>122</td>
+                      <td>6</td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Trucking!</a></td>
+                      <td>11/04/13</td>
+                      <td>140</td>
+                      <td>12</td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Breakfast on me</a></td>
+                      <td>11/01/13</td>
+                      <td>158</td>
+                      <td>11</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="rivals">
+              <div class="rivals-scrollbar">
+                <div class="rivals-posts clearfix">
+                  <ul>
+                    <li><span class="achievement_tip2" title="<b>#1 RACI:</b> 
+					<a href=#>Isco Alarcón:</a> <br><b>Avg. Point Addtioin:</b> 5"><img src="assets/img/photo.png" alt=" "></span></li>
+                    <li> <img src="assets/img/photo-1.png" alt=" "></li>
+                    <li> <img src="assets/img/photo-5.png" alt=" "></li>
+                    <li> <img src="assets/img/photo-1.png" alt=" "></li>
+                    <li> <img src="assets/img/photo-4.png" alt=" "></li>
+                    <li> <img src="assets/img/photo-3.png" alt=" "></li>
+                    <li> <img src="assets/img/photo-2.png" alt=" "></li>
+                    <li> <img src="assets/img/photo-6.png" alt=" "></li>
+                    <li> <img src="assets/img/photo-7.png" alt=" "></li>
+                    <li> <img src="assets/img/photo-8.png" alt=" "></li>
+                    <li> <img src="assets/img/photo-2.png" alt=" "></li>
+                    <li> <img src="assets/img/photo-3.png" alt=" "></li>
+                    <li> <img src="assets/img/photo-2.png" alt=" "></li>
+                    <li> <img src="assets/img/photo-4.png" alt=" "></li>
+                    <li> <img src="assets/img/photo-6.png" alt=" "></li>
+                    <li> <img src="assets/img/photo-5.png" alt=" "></li>
+                    <li> <img src="assets/img/photo-1.png" alt=" "></li>
+                    <li> <img src="assets/img/photo-7.png" alt=" "></li>
+                    <li> <img src="assets/img/photo-8.png" alt=" "></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="boxes-wrapper clearfix">
+      <ul>
+        <li>
+          <div class="panel panel-default blue">
+            <div class="panel-heading">contests</div>
+            <div class="panel-body">
+              <div class="number">10</div>
+             V nasprotju z In </div>
+          </div>
+        </li>
+        <li>
+          <div class="panel panel-default red">
+            <div class="panel-heading">prizes won</div>
+            <div class="panel-body">
+              <div class="number">15</div>
+              Obstajajo številne Money </div>
+          </div>
+        </li>
+        <li>
+          <div class="panel panel-default grey">
+            <div class="panel-heading">ACTIVITIES</div>
+            <div class="panel-body">
+              <div class="number">154</div>
+            Značilne raznovrstne prilagod </div>
+          </div>
+        </li>
+        <li>
+          <div class="panel panel-default purple">
+            <div class="panel-heading">Neprimernih vrinj</div>
+            <div class="panel-body">
+              <div class="number">54</div>
+              Lorem Ipsuma temelji</div>
+          </div>
+        </li>
+        <li>
+          <div class="panel panel-default orange">
+            <div class="panel-heading">Dokazano je, da</div>
+            <div class="panel-body">
+              <div class="number">45<span>th</span> </div>
+               stavčnih struktur povezujejo % </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    
+    <!-- Contestants and Past Contests -->
+    <div class="contestants-wrapper">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="box-title clearfix">
+            <div class="head-col">
+              <h2>Contestants</h2>
+            </div>
+            <div class="search-col">
+              <div class="search-input grey-input">
+                <input type="text" value="Lorem ipsum dolor sit..." class="form-control">
+                <span class="clear-input"></span> </div>
+              <div class="search-icon" id="search_box_animation_1">
+                <input type="image" src="assets/img/search-icon.png" alt=" ">
+              </div>
+            </div>
+          </div>
+          <div class="contestants-box table-full">
+            <div class="table-head clearfix">
+              <table>
+                <tr>
+                  <th scope="col" class="col-01">Contest Name</th>
+                  <th scope="col" class="col-02">Contest Type</th>
+                  <th scope="col" class="col-03">Winner</th>
+                  <th scope="col" class="col-04">Your Finish</th>
+                  <th scope="col" class="col-05">Date Ended</th>
+                </tr>
+              </table>
+            </div>
+            <div class="table-body">
+              <div class="scroll-bar1">
+                <table>
+                  <tr>
+                    <td class="col-01"><a href="#">Team Battle Royale</a></td>
+                    <td class="col-02">Team</td>
+                    <td class="col-03">The Breakfast Club</td>
+                    <td class="col-04">1st out of 2</td>
+                    <td class="col-05">12/23/2013</td>
+                  </tr>
+                  <tr>
+                    <td><a href="#">soccer formations</a></td>
+                    <td>Team</td>
+                    <td>M. Pelkowski</td>
+                    <td>19th out of 75</td>
+                    <td>01/25/2014</td>
+                  </tr>
+                  <tr>
+                    <td><a href="#"> ‎Subrata Pal</a></td>
+                    <td>Individual</td>
+                    <td>Team Boss</td>
+                    <td>2nd out of 3</td>
+                    <td>02/19/2014</td>
+                  </tr>
+                  <tr>
+                    <td><a href="#">Ronaldo..</a></td>
+                    <td>Team</td>
+                    <td>The Eliminators</td>
+                    <td>1st out of 3</td>
+                    <td>03/27/2014</td>
+                  </tr>
+                  <tr>
+                    <td><a href="#">Real Madrid</a></td>
+                    <td>Individual</td>
+                    <td>S. Robinson</td>
+                    <td>9th out of 25</td>
+                    <td>05/13/2014</td>
+                  </tr>
+                  <tr>
+                    <td><a href="#">Eden Hazard ...</a></td>
+                    <td>Team</td>
+                    <td>The Eliminators</td>
+                    <td>1st out of 3</td>
+                    <td>03/27/2014</td>
+                  </tr>
+                  <tr>
+                    <td><a href="#">Paul Pogba</a></td>
+                    <td>Individual</td>
+                    <td>S. Robinson</td>
+                    <td>9th out of 25</td>
+                    <td>05/13/2014</td>
+                  </tr>
+                  <tr>
+                    <td><a href="#">Sergio Agüero ...</a></td>
+                    <td>Team</td>
+                    <td>The Eliminators</td>
+                    <td>1st out of 3</td>
+                    <td>03/27/2014</td>
+                  </tr>
+                  <tr>
+                    <td><a href="#">Raheem Sterling</a></td>
+                    <td>Individual</td>
+                    <td>S. Robinson</td>
+                    <td>9th out of 25</td>
+                    <td>05/13/2014</td>
+                  </tr>
+                  <tr>
+                    <td><a href="#">Francesc Fàbregas</a></td>
+                    <td>Team</td>
+                    <td>The Eliminators</td>
+                    <td>1st out of 3</td>
+                    <td>03/27/2014</td>
+                  </tr>
+                  <tr>
+                    <td><a href="#">Alexis Sánchez</a></td>
+                    <td>Individual</td>
+                    <td>S. Robinson</td>
+                    <td>9th out of 25</td>
+                    <td>05/13/2014</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Contestants and Past Contests --> 
+  </div>
+</section>
+<!-- /container --> 
+
+<!-- scripts --> 
+<script src="assets/js/jquery-ui-1.9.0.custom.min.js"></script> 
+<script src="assets/plugins/chart-js/chart.js"></script> 
+<script src="assets/js/placeholders.min.js"></script> 
+<script src="assets/bootstrap/js/bootstrap.min.js"></script> 
+<script src="assets/js/jquery.icheck.js"></script> 
+<script src="assets/plugins/mCustomScrollbar/jquery.mCustomScrollbar.js"></script> 
+<script src="assets/js/jquery.easing.1.3.js"></script> 
+<script src="assets/plugins/datepicker/moment.js"></script> 
+<script src="assets/plugins/datepicker/daterangepicker.js"></script> 
+<script src="assets/plugins/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js"></script> 
+<script src="assets/plugins/tooltipsy-master/tooltipsy.min.js"></script> 
+<script src="assets/plugins/jQuery-switchButton-master/jquery.switchButton.js"></script> 
+<script src="assets/js/Selectyze.jquery.js"></script> 
+<script src="assets/js/functions.js"></script>
+
+</body>
+</html>

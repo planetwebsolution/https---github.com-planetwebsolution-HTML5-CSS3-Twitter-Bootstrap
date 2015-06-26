@@ -1,0 +1,103 @@
+@charset "utf-8";
+@media only screen and (max-width:1240px) {
+}
+
+@media only screen and (max-width:1024px) {
+.dropdown { left: -275px; }	
+.mainmenu > li { margin: 0 0 0 20px; }
+#site-footer { padding: 20px 0; margin: 0; }
+#site-footer .links { float: left; text-align: left; width: 100%; position: static; margin-bottom: 10px; }
+#middle { padding-bottom: 0px; }	
+.products-filter label { display: block; padding-bottom: 10px; }
+.products-filter ul li { margin: 0 5px 5px 0; }
+.price-area ul li { font-size: 19px; }
+.price-area ul li.avaliability { min-width: 26.5%; } 
+.price-area ul li.add-button { padding-left: 20px; }
+.shows-list { margin: 40px 0; }
+}
+
+@media only screen and (max-width:992px) {
+.mainmenu { float: left; margin: 20px 0 0; }	
+.mainmenu > li { margin: 0 20px 0 0; padding-bottom: 20px; }
+.dropdown { width: 728px; left: -4px; top: 42px; }
+.dropdown:after { left: 98px; }
+.home-boxes .box-inner h2 { font-size: 30px; line-height: 38px; }
+.section-detail { padding: 0 50px; }
+.product-tabs .nav-tabs > li a { font-size: 15px; padding: 10px; }
+.category-banner .name { font-size: 60px; }
+.price-area ul li.add-button { padding: 15px 0; text-align: center; width: 100%; }
+.head-office .name  { margin-bottom: 10px; }  
+.head-office .address { margin-bottom: 0px; }  
+.contacts-list { margin-top: 0px; }
+.artists-list .artist-detail .detail-name { font-size: 35px; line-height: 40px; }
+}
+
+@media only screen and (max-width:767px) {
+.top-search { float: left; }	
+#site-header .top1 .links { margin-left: 0; }
+#site-header .top1 { padding: 15px 0; }	
+nav { padding: 20px 0 0; clear: both; }
+.flexmenu { display: none; margin: 0 -15px 15px; background: #f4f4f4; float: none; }
+.mainmenu li { width: 100%; margin: 0; padding: 0; }
+.mainmenu > li > a { padding: 5px 15px; border-bottom: 1px solid #ddd; font-weight: 300; }
+.mainmenu > li > a:hover { background: #e6e6e6; }
+.menu_button { background: #222; width: 34px; height: 34px; line-height: 29px; font-size: 22px; position: absolute; top: 65px; right: 15px; text-align: center; color: #fff; cursor: pointer; }
+.menu_button .fa { line-height: 155%; }
+.mainmenu > li:hover .dropdown { display: none; }
+.mainmenu .dropdown { position: static; padding: 0 15px 15px 15px; width: auto; }
+.mainmenu .dropdown .row { background: none; }
+.mainmenu .dropdown h3 { margin: 15px 0; }
+.mainmenu .dropdown ol li { margin: 0 0 5px; }
+.mainmenu .dropdown ol li a { font-size: 16px; }
+.mainmenu .dropdown::after { display: none; }
+.home-boxes { padding: 0 15px; }
+.home-boxes .box8 .col-sm-5 { margin-bottom: 10px; }
+.home-boxes .box8 .col-sm-5 img { width: 100%; height: auto; }
+#site-footer .links,
+#site-footer .copyright,
+#site-footer .social { float: none; text-align: center; }
+#site-footer .social { margin-top: 10px; }
+ul.breadcrumb { padding: 20px 0; }
+.section-detail { padding: 0; margin-bottom: 30px; }
+.category-banner .name { text-align: center; top: 0; padding: 20px 0; font-size: 40px; }
+.category-banner .image { text-align: center; }
+.products-filter { margin-top: 15px; padding-bottom: 0; }
+.product-boxes { margin: 20px 0; }
+.product-tabs .nav-tabs > li a { padding: 7px; }
+.product-detail .head h1 { font-size: 30px; line-height: 35px; }
+.product-detail .description .stickers,
+.product-detail .description .share { text-align: center; margin: 0 0 10px; }
+.product-detail .description .stickers { margin-top: 30px; }
+.price-area { margin: 20px 0; }
+.price-area ul li { display: block; text-align: center !important; padding: 7px 10px !important; border: none !important; }
+.price-area ul li.add-button { padding: 7px 10px 15px !important; }
+.price-area ul li.price.multiple ul { max-width: 100%; text-align: center; }
+.shows-list .show .address { font-size: 16px; line-height: 22px; }
+.shows-list .show .url,
+.shows-list .show .url a { font-size: 16px; line-height: 20px; }
+.shows-list .show .address,
+.shows-list .show .url { position: relative; padding-left: 24px; }
+.shows-list .show .address i,
+.shows-list .show .url i { position: absolute; left: 0; top: 0px; }
+.artists-list .artist-detail .detail-name { text-align: center; padding: 0; }
+.artists-list .artist-detail .detail-text { text-align: center; padding: 15px; }
+.artists-list .artist-detail .others .f_left,
+.artists-list .artist-detail .others .f_right { float: none !important; text-align: center; margin: 10px 15px 0; }
+.head-office { margin-top: 40px; }
+.head-office .name { margin-bottom: 30px; }
+}
+
+@media only screen and (max-width:568px) {
+}
+
+@media only screen and (max-width:375px) {
+.home-boxes .box-inner h2 { font-size: 30px; line-height: 34px; }	
+.products-filter ul li a { font-size: 14px; }
+.product-detail-images .bx-wrapper .bx-prev,
+.product-detail-images .bx-wrapper .bx-next { width: 40px; height: 42px; background-size: 40px auto; }
+h1 { font-size: 25px; line-height: 30px; }
+}
+
+@media only screen and (max-width:320px) {
+#site-header .top1 .top-search input[type="text"] { min-width: inherit; width: 180px; }
+}

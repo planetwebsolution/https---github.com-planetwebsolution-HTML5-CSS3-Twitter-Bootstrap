@@ -1,0 +1,149 @@
+@charset "utf-8";
+@media only screen and (max-width:1200px) {
+
+}
+
+@media only screen and (max-width:1024px) {
+#site-header .logo { left: -10px; max-width: 220px; }	
+#site-header .phone-number { right: -10px; }	
+#site-header .right { margin: 0px; }
+#site-header .topsearch { margin: 27px 0 0 15px; }
+#header-nav ul li:first-child a { padding-left: 0; }
+#header-nav ul li a { font-size: 15px; padding: 28px 11px; }
+#banner { min-height: 405px; }
+#welcome { padding-bottom: 30px; }
+#welcome h1 { margin-bottom: 10px; }
+#welcome .video-area { padding-bottom: 30px; }
+#welcome .video { background: #f4c646; padding: 30px 15px; }
+#welcome .video-text { padding-bottom: 15px; }
+#welcome .why-us .left { font-size: 50px; padding-right: 0; }
+#unbeatable-service .car-image { width: 70%; right: -17%; }
+#unbeatable-service .highlights { padding-left: 30px; }
+#unbeatable-service .highlights ul { font-size: 23px; }
+#online-appointment .detail { padding: 0 20px; }
+#sidebar { margin-left: 0px; min-width: inherit; }
+
+.gallery{ text-align:center;}
+
+}
+
+@media only screen and (max-width:992px) {
+.pad40,
+.pad60 { padding-top: 30px !important; padding-bottom: 30px !important; }
+.section-head h2 { font-size: 38px; line-height: 45px; }
+.section-head h3 { font-size: 19px; line-height: 22px; }
+#site-header .logo { left: 10px; max-width: 185px; }	
+#site-header .phone-number { top: 0; right: 10px; }
+#site-header .right { float: left; margin: 82px 0 0 0px; width: 100%;  }
+#header-nav ul li a { font-size: 14px; padding: 20px 10px; }
+#site-header .topsearch { margin-top: 22px; margin-right: 0px; }
+#banner { min-height: 305px; }
+#banner .banner-inner { padding-top: 11%; }
+#banner .banner-inner h1 { font-size: 40px; line-height: 40px; }
+#banner .banner-inner .form label { font-size: 18px; padding: 0 10px; }
+#banner .banner-inner .form input[type="text"],
+#banner .banner-inner .form select,
+#banner .banner-inner .form input[type="submit"] { padding-top: 5px; padding-bottom: 5px; font-size: 18px; }
+#banner .banner-inner .form input[type="submit"] { top: 0; padding-top: 4px; padding-bottom: 4px; }
+#welcome h1 { font-size: 40px; line-height: 40px; }
+#welcome h2.subhead { padding-bottom: 30px; }
+#welcome .why-us .left { font-size: 37px; text-align: left; }
+#unbeatable-service .highlights { padding-top: 30px; padding-right: 15px; }
+#unbeatable-service .highlights ul { font-size: 22px; }
+#unbeatable-service .highlights ul li { margin-bottom: 20px; background-size: 35px auto; padding: 6px 0 8px 55px; }
+#unbeatable-service .car-image { width: 80%; bottom: -20px; right: -15%; }
+#unbeatable-service .technician .orange { padding: 0; }
+footer .boxes .box3 form input[type="text"] { width: auto; }
+footer .boxes .box2 ul { column-count: 1; -moz-column-count: 1; -ms-column-count: 1; -webkit-column-count: 1; }
+footer .boxes h3.box-head { margin-bottom: 25px; }
+#cities .inner ul { column-count: 3; -moz-column-count: 3; -ms-column-count: 3; -webkit-column-count: 3; }
+footer .boxes .box1 ul { float: none; }
+.subpage-boxes .box { padding: 20px 15px; }
+.subpage-boxes .box .detail { padding-top: 0; }
+#sidebar { padding: 22px 10px; }
+#sidebar .contact-us-form { padding: 15px 10px; }
+#sidebar .contact-us-form > h2 { font-size: 23px; }
+#sidebar .contact-us-form form input[type="submit"] { font-size: 18px; }
+#sidebar .technician-box .numbers { font-size: 17px; }
+#sidebar .technician-box a { font-size: 14px; line-height: 20px; padding: 5px; transition: none; }
+}
+
+@media only screen and (max-width:767px) {
+.section-head h2 { font-size: 32px; line-height: 38px; }
+.section-head h3 { font-size: 18px; line-height: 24px; }	
+#site-header .logo { position: relative; left: auto; top: auto; text-align: center; margin: 50px auto 10px; }
+#site-header .phone-number { left: 0; right:0; padding: 0 12px; border-radius: 0; }
+#site-header .phone-number li { float: left; font-size: 14px !important; padding: 5px 0 6px !important; background: none !important; }
+#site-header .phone-number ul li strong { font-size: 14px !important; padding: 0 0 0 5px; }
+#site-header .phone-number li:last-child { float: right; }
+
+#site-header .right { float: none; margin: 0 -15px; width: auto; position: relative; }
+.menu_button { display: block; margin: 0 0 10px 15px; color: #333; text-align: center; }
+.menu_button:after { display: block; font: 23px/32px 'FontAwesome'; content: "\f0c9"; width: 36px; height: 32px; background: #ffcc00; cursor: pointer; border-radius: 3px; }
+.fm-sm { display: none; }
+#header-nav { float: none; margin: 0; } 
+#header-nav ul { float: none; } 
+#header-nav ul li { display: block; float: none; width: 100%;  }
+#header-nav ul li a { font-size: 14px; padding: 5px 20px !important; display: block; background: #ffcc00; border-top: 1px solid #ffe26f; border-bottom: 1px solid #e9b422; color: #333; }
+#header-nav ul li a:hover,
+#header-nav ul li.active a { background: #e9b422; color: #000; }
+#site-header .topsearch { position: absolute; right: 15px; top: -18px; }
+#banner { min-height: 270px; background-size: 300% auto; }
+#banner .banner-inner { padding-bottom: 30px; }
+#banner .banner-inner h1 { font-size: 34px; }
+#banner .banner-inner .form form { padding: 15px; }
+#banner .banner-inner .form input[type="text"] { width: 100px; }
+#three-boxes .box { border: none; border-bottom: 1px solid #ccc; padding-bottom: 20px; margin-bottom: 25px; }
+#three-boxes div[class*="col"]:last-child .box { border: none; margin-bottom: 0; padding-bottom: 0; }
+#welcome .video { padding-bottom: 0; }
+#welcome .video-area,
+#welcome .why-us { padding-left: 0px; padding-right: 0px; }
+#welcome .video-text { padding-left: 15px; padding-right: 15px; }
+#welcome .why-us .left { padding: 0 0 15px;  }
+#welcome .why-us .right { font-size: 17px; line-height: 22px; }
+#online-appointment .detail h3 { font-size: 28px; margin: 20px 0; }
+#unbeatable-service .highlights { padding-left: 15px; }
+#unbeatable-service .highlights ul { font-size: 21px; }
+#unbeatable-service .highlights ul li { background-size: 30px auto; padding: 5px 0 5px 50px }
+.max-width330 { max-width: inherit; }
+#unbeatable-service .car-image { position: relative; bottom: auto; right: auto; width: 100%; margin-top: 30px; }
+#gurantee .image,
+#online-appointment .image { padding-bottom: 25px; text-align: center; }
+#online-appointment .detail .image { margin: 0; }
+#cities .section-head h2 { font-size: 32px; }
+footer .boxes .box { padding-bottom: 15px; margin-bottom: 15px; border-bottom: 1px solid #444; }
+footer .boxes div[class*="col"]:last-child .box { padding-bottom: 0; margin-bottom: 0; border-bottom: none; }
+footer .boxes h3.box-head { margin-bottom: 15px; }
+
+img.alignright { float: none; display: block; margin: 0 auto 20px; }
+.subpage-boxes .box .image { margin-bottom: 15px; }
+}
+
+@media only screen and (max-width:568px) {
+#banner .banner-inner h1 { font-size: 25px; }	
+#banner .banner-inner .form form { padding: 10px; width: 100%; }
+#banner .banner-inner .form ul li { width: 100%; display: block; margin: 0 0 10px; text-align: left; }
+#banner .banner-inner .form li label { display: block; padding: 0 0 5px; text-align: center; text-transform: uppercase; color: #fcc123; }
+#banner .banner-inner .form li input[type="text"],
+#banner .banner-inner .form li input[type="submit"],
+#banner .banner-inner .form li select { width: 100%; margin: 0; }
+#welcome h1	{ font-size: 32px; line-height:36px; }
+#welcome h2.subhead { font-size: 24px; line-height: 30px; }
+.inner-banner { overflow: hidden; }
+.inner-banner img {/* min-width: 250%; margin-left: -50%;*/ }
+}
+
+@media only screen and (max-width:360px) {
+#site-header .phone-number { padding: 0 5px; }	
+#site-header .phone-number li { font-size: 13px !important; }
+#site-header .phone-number ul li strong { font-size: 12px !important; }
+
+#cities .section-head h2,
+.section-head h2 { font-size: 28px; line-height: 34px; }	
+#cities .inner ul { column-count: 2; -moz-column-count: 2; -ms-column-count: 2; -webkit-column-count: 2; }
+footer .copyright { font-size: 13px; }
+}
+
+
+
+
